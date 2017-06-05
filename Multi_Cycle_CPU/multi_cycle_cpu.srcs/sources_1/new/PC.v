@@ -33,7 +33,7 @@ module PC( clk, rst, PCWre, nextPC, shiftline_num, pc, pc4, shiftNextPC);
 
     assign pc = curPC;
 
-    always@( PCWre or negedge rst ) begin
+    always@( posedge clk) begin
         if( rst == 0 ) curPC = 0;
         else begin
             if (PCWre) curPC = nextPC;

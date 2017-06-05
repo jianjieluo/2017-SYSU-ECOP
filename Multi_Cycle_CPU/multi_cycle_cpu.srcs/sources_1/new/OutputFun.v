@@ -64,7 +64,8 @@ module OutputFun(
                           WB2 = 3'b100; // lw指令的WB状�??
 
     always @ ( currState ) begin
-        if (currState == IF) begin
+        if (currState == WB1 || currState == WB2 || (currState == EXE2 && beq) || 
+        (currState == MEM && sw) || (currState == ID && (j || jal || jr || halt))) begin
             PCWre = 1;
             if (halt) PCWre = 0;
         end
