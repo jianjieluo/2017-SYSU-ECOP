@@ -1,5 +1,5 @@
-# 2017-SYSU-Computer-Organization-Lab
-Store my Computer Organization Lab course code.
+# 2017-SYSU-Computer-Organization-Practice
+Store my Computer Organization Practice course code.
 
 1. Experiment 1 is tested on the `PCSPIm`
 2. Experiment 2 and 3 are tested on the `Vivado2015.02`
