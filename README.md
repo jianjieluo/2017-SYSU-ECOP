@@ -1,4 +1,4 @@
-# Computer-Organization-Lab
+# 2017-SYSU-Computer-Organization-Lab
 Store my Computer Organization Lab course code.
 
 1. Experiment 1 is tested on the `PCSPIm`
